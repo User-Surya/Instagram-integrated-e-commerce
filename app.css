@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f7f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.category1{
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #ECE2D0;
+}
+.category2{
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #ECE2D0;
+}
+.category3{
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #ECE2D0;
+}
+.category4{
+    padding: 5px;
+    border-radius: 2px;
+    background-color:#ECE2D0;
+}
+
+.cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.categories, .featured-products, .recommendations {
+    padding: 20px;
+    background-color: #FFEED6;
+    margin: 10px 0;
+}
+
+.category-icons, .product-grid, .recommendation-carousel {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+
+.category, .product-card, .recommendation {
+    flex: 0 0 auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.product-card img, .recommendation img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
